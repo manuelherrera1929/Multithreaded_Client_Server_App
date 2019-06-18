@@ -1,5 +1,5 @@
 package multithreaded_server;
-
+// Test the Server application
 import javax.swing.JFrame;
 
 /**
@@ -10,8 +10,8 @@ public class ServerTest
 {
     public static void main( String[] args )
     {
-    Multithreaded_Server application = new Multithreaded_Server(); // create server
+    Multithreaded_Server application = new Multithreaded_Server();// create server
     application.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
-    application.runServer();
-    }   
-}
+    application.runServer();// run server application
+    }// end main   
+}// end class ServerTest
